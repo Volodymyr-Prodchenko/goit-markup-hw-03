@@ -130,7 +130,7 @@ body {
   display: flex;
   align-items: center;
 }
-.order-servis-btn {
+.btn {
   display: block;
   cursor: pointer;
   min-width: 169px;
@@ -141,19 +141,21 @@ body {
   padding-right: 32px;
   border: none;
   border-radius: 4px;
+  background-color: #4d5ae5;
+}
+.order-servis-btn {
+  
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-  
+  color: #ffffff; 
 }
 
 .order-servis-btn:hover,
-.order-servis-btn:focus {x
+.order-servis-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -263,8 +265,7 @@ gap: 24px;
 
 }
 .our-portfolio-title {
-  padding-bottom: 8px;
-  font-weight: 500;
+   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -283,8 +284,8 @@ height: 420px;
 background-color: #ffffff;
 }
 .app-cat {
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  margin-bottom: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -292,19 +293,16 @@ background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-bottom: 32px;
-
 }
 /* =========== /Our Portfolio Section styles =========== */
 
 /* =========== Footer Section styles =========== */
 .page-footer {
-  background-color: #2e2f42
+  background-color: #2e2f42;
+  padding-top: 100px;
+ padding-bottom: 100px;
 }
 .footer-cont {
-  padding-top: 100px;
-padding-bottom: 100px;
     
 }
 .logo-footer {
