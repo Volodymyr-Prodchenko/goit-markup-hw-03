@@ -151,16 +151,6 @@ body {
   display: block;
   align-items: center;
 }
-.order-servis-btn {
-  
-  
-}
-
-/*.order-servis-btn:hover,
-.order-servis-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}*/
 .btn:hover,
 btn:focus {
   color: #ffffff;
