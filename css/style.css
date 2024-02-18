@@ -142,9 +142,6 @@ body {
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
-}
-.order-servis-btn {
-  
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
@@ -153,9 +150,18 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff; 
 }
+.order-servis-btn {
+  
+  
+}
 
-.order-servis-btn:hover,
+/*.order-servis-btn:hover,
 .order-servis-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}*/
+.btn:hover,
+btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -270,6 +276,7 @@ gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .our-portfolio-list {
   display: flex;
@@ -285,7 +292,6 @@ background-color: #ffffff;
 }
 .app-cat {
   padding: 32px 16px;
-  margin-bottom: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
