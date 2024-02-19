@@ -109,8 +109,7 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
-  margin-bottom: 60px;
-}
+ }
 .hero-container {
  
 }
@@ -227,10 +226,8 @@ gap: 24px;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  padding-bottom: 32px;
   }
   .our-team-img {
-    margin-bottom: 32px;
   }
 .our-team-title {
   font-weight: 500;
